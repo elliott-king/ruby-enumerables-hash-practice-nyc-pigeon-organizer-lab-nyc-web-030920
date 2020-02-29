@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         if !reorganized[name][header]
           reorganized[name][header] = []
         end
-        reorganized[name][header] = subheader.to_s
+        reorganized[name][header] << subheader.to_s
       end
     end
   end
